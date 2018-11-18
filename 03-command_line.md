@@ -47,7 +47,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 >> **`--help`**				(use with any command to get info about it)  
 >> **`grep`** 				(search through the contents of a set of files to find a specific line of text.)  
 >> **`name?.file_ext`**			(the ? is a wild card to search multiple files that start with the same name)  
->> ***`.file_ext`**			(the * is a wild card that searches in multiple files that end in the same file                extension)  
+>> **`*.file_ext`**			(the * is a wild card that searches in multiple files that end in the same file                extension)  
 >> **`command | command`**		(allows you to send output from one command to input of another command. Useful for chaining commands together.)  
 >> **`command && command`** 		(run two commands sequentially, but not pass output between them)  
 >> **`cat`** filename 			(print the contents of a file)  
