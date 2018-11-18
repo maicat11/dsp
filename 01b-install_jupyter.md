@@ -16,7 +16,8 @@ Review the [installation instructions](resources/jupyter_notebook_1_install.md) 
 Review the [notes on using Jupyter Notebook](resources/jupyter_notebook_2_use.md) and create a test notebook.  Do some practice and get accustomed to navigating around the notebook.  
 
  
- 
+ **Acknowledged** :thumbsup: 
+ I have been using Jupyter for self practice and at work for nearly 2 years. 
  
 
 
