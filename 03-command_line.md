@@ -20,8 +20,8 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > **BASH in terminal/command line**
->> _[command] [options] [arguments]_ 
+> > **BASH in terminal/command line**  
+>> _`[command] [options] [arguments]`_  
 
 >> **clear**				(clear the screen) 
 >> **touch** 				(create or modify a file without open, save, close)  
@@ -129,7 +129,7 @@ What does `xargs` do? Give an example of how to use it.
 >> **`xargs`** is a command on Unix operating systems used to build and execute commands from standard input. It converts input from standard input into arguments to a command.  
 
 >> For example, 
->> >> _printf "one\ntwo\nthree\n" | xargs mkdir_  
+>> >> _`printf "one\ntwo\nthree\n" | xargs mkdir`_  
 
 >> will simultaneously create 3 folders "one", "two", "three" 
  
