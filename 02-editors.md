@@ -62,4 +62,4 @@ Spyder and PyCharm are IDEs for Python. They try to give you a fully configured 
 
 We will also use Jupyter notebooks, but this does not remove the need for proficiency in an editor or IDE.
 
-**Acknowledged** "thumbsup:
+**Acknowledged** :thumbsup:
