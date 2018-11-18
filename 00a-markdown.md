@@ -174,3 +174,5 @@ Content in the first column | Content in the second column
 ## <a name="section-r"></a>References 
 
 [Markdown Help](http://mathoverflow.net/editing-help)
+
+**Acknowledged** :thumbsup:
