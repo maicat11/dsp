@@ -26,6 +26,6 @@ thinkplot.Cdf(rand_cdf)
 thinkplot.Config(xlabel='Random Values', ylabel='CDF', loc='upper left')
 ```
 
-Graph2 here
+<img width="410" alt="exercise_4-2_cdf" src="https://user-images.githubusercontent.com/20651507/50542591-27020100-0b76-11e9-9d3c-809a30f6414e.png">
 
 The mostly straight line is an indication that the distribution is uniform, a mostly one-to-one relationship of percentle rank and its distribution.
