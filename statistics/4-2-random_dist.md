@@ -16,7 +16,7 @@ thinkplot.Hist(rand_pmf)
 thinkplot.Config(xlabel='Random Values', ylabel='PMF')
 ```
 
-Graph1 here
+<img width="432" alt="exercise_4-2_pmf" src="https://user-images.githubusercontent.com/20651507/50542582-fb7f1680-0b75-11e9-9caa-7d90e6c957a0.png">
 
 There are too many different individual values (1000), their frequencies are low and not visible on the graph
 
