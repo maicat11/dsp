@@ -16,7 +16,8 @@ thinkplot.Pmf(rand_pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random Values', ylabel='PMF')
 ```
 
-<img width="432" alt="exercise_4-2_pmf" src="https://user-images.githubusercontent.com/20651507/50542582-fb7f1680-0b75-11e9-9caa-7d90e6c957a0.png">
+<img width="424" alt="exercise_4-2-2_pmf" src="https://user-images.githubusercontent.com/20651507/50542613-f078b600-0b76-11e9-9cb7-ab757924d646.png">
+
 
 There are too many different individual values (1000), their frequencies are low and not visible on the graph
 
