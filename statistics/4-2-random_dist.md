@@ -12,7 +12,7 @@ Output: array([0.70951536, 0.36790217, 0.46374716, 0.04632809, 0.56911358])
 ```
 # Plot the PMF of the list above
 rand_pmf = thinkstats2.Pmf(rand_vals, label='random vals')
-thinkplot.Hist(rand_pmf) 
+thinkplot.Pmf(rand_pmf, linewidth=0.1) 
 thinkplot.Config(xlabel='Random Values', ylabel='PMF')
 ```
 
