@@ -1,9 +1,20 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
-
+  `resp = nsfg.ReadFemResp()`    
   `actual_child = thinkstats2.Pmf(resp.numkdhh, label='actual')`   
+
+```
+def BiasPmf(pmf, label):   
+    new_pmf = pmf.Copy(label=label) 
+    for x, p in pmf.Items():   
+        new_pmf.Mult(x, x)   
+    new_pmf.Normalize()   
+    return new_pmf  
+```  
+  
   `biased_child = BiasPmf(actual_child, label='observed')`   
-  `# create the graph`
+  
+  `# create graph`   
   `thinkplot.PrePlot(2)`  
   `thinkplot.Pmfs([actual_child, biased_child])`   
   `thinkplot.Config(xlabel='Num of children', ylabel='PMF')`   
