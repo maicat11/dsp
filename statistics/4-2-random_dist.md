@@ -19,7 +19,7 @@ thinkplot.Config(xlabel='Random Values', ylabel='PMF')
 <img width="424" alt="exercise_4-2-2_pmf" src="https://user-images.githubusercontent.com/20651507/50542613-f078b600-0b76-11e9-9cb7-ab757924d646.png">
 
 
-There are too many different individual values (1000), their frequencies are low and not visible on the graph
+There are too many different individual values, 1000, and their frequencies are one occurances, ~0.001 probability. The resulting graph is not useful.
 
 ```
 rand_cdf = thinkstats2.Cdf(rand_vals, label='rand vals')
