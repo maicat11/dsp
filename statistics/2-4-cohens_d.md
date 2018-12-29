@@ -2,6 +2,6 @@
 
 First babies mean weight is ~7.201 and other babies mean weight is ~7.326.  
 This is a difference of ~ -0.125 less for first babies.  
-Cohen's d computed is ~ -0.088673.   
+Cohen's d (effect size) computed is ~ -0.088673.   
 This represents distance between first and other babies means in standard deviations.    
 It is negative because the first babies mean weight is less than the other babies mean weight.  
