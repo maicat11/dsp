@@ -6,7 +6,9 @@ mu = 178
 sigma = 7.7
 dist = scipy.stats.norm(loc=mu, scale=sigma)
 
-# 5'10" ~ 177.8 cm and 6'1" ~ 185.42cm 
-dist.cdf(185.42) - dist.cdf(177.8)
+# convert heights into cm
+height_5_10 = 177.8
+height_6_1 = 185.4
+dist.cdf(height_6_1) - dist.cdf(height_5_10)
 ```
-Roughly 0.3427 or 34.3% of the population of men would qualify for the Blue Man Group. 
+Roughly 0.3421 or 34.2% of the population of men would qualify for the Blue Man Group. 
