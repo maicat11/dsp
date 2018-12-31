@@ -13,32 +13,35 @@ class DiffMeansResample(DiffMeansPermute):
 
 **Use this model to test the differences in pregnancy length and birth weight.** 
 ```
-data = firsts.prglngth.values, others.prglngth.values
-ht = DiffMeansResample(data)
-p_value = ht.PValue(iters=10000)
-print('\ndifference means resample pregnancy length')
-print('p-value =', p_value)
-print('actual =', ht.actual)
-print('test stat max =', ht.MaxTestStat())
+import first
+live, firsts, others = first.MakeFrames()
 
-data = (firsts.totalwgt_lb.dropna().values,
-        others.totalwgt_lb.dropna().values)
-ht = DiffMeansPermute(data)
-p_value = ht.PValue(iters=10000)
-print('\ndifference means resample birth-weight')
-print('p-value =', p_value)
-print('actual =', ht.actual)
-print('test stat max =', ht.MaxTestStat())
+def RunResampleTest(firsts, others, column):
+
+    if column == 'preglength':
+        data = firsts.prglngth.values, others.prglngth.values
+    elif column == 'totalwgt_lb':
+        data = (firsts.totalwgt_lb.dropna().values, others.totalwgt_lb.dropna().values)
+
+    ht = DiffMeansPermute(data)
+    p_value = ht.PValue(iters=10000)
+    print(f'\ndifference means resample {column}')
+    print('p-value =', p_value)
+    print('actual =', ht.actual)
+    print('test stat max =', ht.MaxTestStat())
+
+RunResampleTest(firsts, others, 'preglength')
+RunResampleTest(firsts, others, 'totalwgt_lb')
 ```
-diff means resample preglength    
-p-value = 0.168    
+difference means resample preglength    
+p-value = 0.1662    
 actual = 0.07803726677754952    
-ts max = 0.23361872895934255    
+test stat max = 0.2459321133130956    
 
-diff means resample birthweight    
+difference means resample totalwgt_lb    
 p-value = 0.0    
 actual = 0.12476118453549034    
-ts max = 0.11002846003277433    
+test stat max = 0.11445949838272984     
 
 
 **How much does the model affect the results?**    
