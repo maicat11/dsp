@@ -13,8 +13,8 @@ print('Mean: ${}'.format(round(mean,2)))
 print('Skewness: {}'.format(round(skewness,5)))
 print("Pearson's Skewness: {}".format(round(pearson_skewness, 5)))
 ```
-Median: $51226.0     
-Mean: $74278.71    
+Median: $51,226.0     
+Mean: $74,278.71    
 Skewness: 4.94992   
 Pearson's Skewness: 0.73613   
 
