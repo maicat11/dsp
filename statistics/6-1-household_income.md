@@ -30,4 +30,4 @@ Income reported below the mean is 66.0%
 *All results would change if the assumed upper bound were changed.  
 A higher/lower upperbound would increase/decrease the mean.  
 This would inturn change the skewness values since they are reliant on the mean.  
-The only values unaffected is the median, which would most likely remain the same.*
+The only value unaffected is the median, which would remain the same.*
