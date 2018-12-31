@@ -76,4 +76,4 @@ Confidence Interval for n=10000: (1.966, 2.032)
 
 <img width="410" alt="screen shot 2018-12-31 at 10 47 15 am" src="https://user-images.githubusercontent.com/20651507/50566018-b7148780-0ce9-11e9-9bb5-e1144dedbc44.png">
 
-
+*The actual lamda value of 2 falls in every confidence interval instance of n.*
