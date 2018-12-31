@@ -40,7 +40,7 @@ thinkplot.Config(xlabel='Mother\'s Age (years)',
                  xlim=[10, 45],
                  legend=True)
 ```
-graph2 here
+<img width="423" alt="screen shot 2018-12-31 at 7 54 17 am" src="https://user-images.githubusercontent.com/20651507/50563542-91c84f00-0cd2-11e9-95b6-0b395267acdf.png">
 
 *This plot suggests there is a non-linear relationship between mother's age and babies weight.    
 There is a noticible weight increase from years 15-25, but after that the relationship appears to level off.*
@@ -55,7 +55,7 @@ spearman_corr = SpearmanCorr(ages, weights)
 print('Pearson\'s Correlation: {}'.format(round(pearson_corr,5)))
 print('Spearman\'s Correlation: {}'.format(round(spearman_corr,5)))
 ```
-Pearson's Correlation: 0.06883
+Pearson's Correlation: 0.06883   
 Spearman's Correlation: 0.09461
 
 *The low correlation values supports the scatter plot that there is a weak linear relationship.*   
