@@ -13,7 +13,6 @@ class DiffMeansResample(DiffMeansPermute):
 
 **Use this model to test the differences in pregnancy length and birth weight.** 
 ```
-# Solution goes here
 data = firsts.prglngth.values, others.prglngth.values
 ht = DiffMeansResample(data)
 p_value = ht.PValue(iters=10000)
