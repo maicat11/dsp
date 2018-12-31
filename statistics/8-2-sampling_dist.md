@@ -74,6 +74,7 @@ Confidence Interval for n=1000: (1.899, 2.106)
 Confidence Interval for n=5000: (1.955, 2.047)    
 Confidence Interval for n=10000: (1.966, 2.032)  
 
-*The actual lambda value of 2 falls in every confidence interval instance of n.*
+*As n increases, the window size of the confidence interval decreases.   
+The actual lambda value of 2 falls in every confidence interval instance of n.*
 
 <img width="410" alt="screen shot 2018-12-31 at 10 47 15 am" src="https://user-images.githubusercontent.com/20651507/50566018-b7148780-0ce9-11e9-9bb5-e1144dedbc44.png">
