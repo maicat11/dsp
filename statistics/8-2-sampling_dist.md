@@ -33,8 +33,7 @@ Standard Error: 0.86221
 Confidence Interval: (1.2833, 3.81024)    
 *(Answer varies based on samples)*
 
-Graph 1 here
-
+<img width="398" alt="screen shot 2018-12-31 at 10 47 01 am" src="https://user-images.githubusercontent.com/20651507/50566004-91877e00-0ce9-11e9-9514-1e83b1a31e46.png">
 
 **Repeat the experiment with a few different values of n and make a plot of standard error versus n.**
 ```
