@@ -16,7 +16,7 @@ thinkplot.Config(xlabel='Age of Mother (years)',
                  axis=[10, 45, 0, 15],
                  legend=False)
 ```
-graph1 here
+<img width="410" alt="screen shot 2018-12-31 at 7 54 04 am" src="https://user-images.githubusercontent.com/20651507/50563517-5af23900-0cd2-11e9-8c0c-d79a079bdb51.png">
 
 *This appears to be a weak relationship between mother's age and baby weight.*   
 
